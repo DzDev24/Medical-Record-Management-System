@@ -21,7 +21,7 @@ A comprehensive healthcare management solution consisting of a PHP backend API a
 
 ## Overview
 
-The National Medical Record Management System is designed to digitize and streamline healthcare operations. It provides role-based access for patients, doctors, and administrators, ensuring secure and efficient management of medical data.
+The National Medical Record Management System is a system designed to digitize and Patient medical records. It provides role-based access for patients, doctors, nurses and administrators, ensuring secure and efficient management of medical data.
 
 ---
 
@@ -29,48 +29,61 @@ The National Medical Record Management System is designed to digitize and stream
 
 ### Patient Features
 - View personal medical records and history
-- Book and manage appointments
 - View prescriptions and lab results
 - Request re-access to restricted accounts
-- Track appointment status
+- View scheduled and past appointments and their status
 
 ### Doctor Features
-- View assigned patients and their medical records
-- Manage appointments (confirm, complete, cancel, mark as missed)
+- View patients and their medical records
+- Manage appointments (create, modify, delete, confirm, complete, cancel, mark as missed)
 - Create consultations with diagnoses and notes
 - Prescribe medications
-- Upload and manage lab results
+- Upload lab results
+
+### Nurse Features
+-Manage all patients (add, edit, delete)
 
 ### Administrator Features
-- Manage all patients (add, edit, delete, restrict)
 - Manage staff accounts (doctors, admins)
-- View and manage all appointments
 - Process re-access requests
 - View system activity logs
-- Access system statistics and metadata
 
-### System Features
-- Consecutive missed appointment tracking with automatic patient restriction
+### Key Features
 - Comprehensive activity logging
 - Secure authentication with role-based access control
 - File upload support for lab results
 
+### Centralized Medical Records
+eliminates duplicated records across different hospitals.
+Allows real-time updates of diagnoses, treatments, prescriptions, and lab results.
+### Automated Exclusion Mechanism (Anti-No-Show)
+-Logic: The system automatically tracks patient attendance.
+-Trigger: If a patient misses three (3) consecutive scheduled appointments.
+-Action: The system automatically flags the patient and restricts access to their account.
+-Resolution: The patient must submit a "Re-access Request" via the app, which the System Administrator must review and approve/reject.
+
 ---
 
-## Technology Stack
+## System Architecture
+The project follows a client-server architecture
 
 ### Backend
-- PHP 7.4+
-- MySQL / MariaDB
-- PDO for database operations
-- Apache (XAMPP recommended)
+Server: Apache (via XAMPP)
+Language: PHP 8 (pure php not laravel)
+Role: Handles HTTP requests, executes business logic, and manages database interactions.
+
+### Database
+System: MySQL / MariaDB
+Management Tool: phpMyAdmin
+Security: Passwords are hashed; critical medical data is encrypted.
 
 ### Mobile Application
-- Flutter 3.x
 - Dart
+- Flutter (dart framework to make interfaces based on widgets system)
 - HTTP package for API communication
 - Google Fonts for typography
-- Shared Preferences for local storage
+- intl: for date/time formatting
+- Shared Preferences for local session management
 
 ---
 
@@ -127,71 +140,44 @@ medical-app/
 
 ---
 
-## Backend Setup
+## Setup and installation
 
 ### Prerequisites
-- XAMPP (or similar PHP development environment)
+- XAMPP (or similar PHP development environment like WAMP/MAMP)
 - MySQL / MariaDB
+- Flutter SDK installed and configured
+- Android Studio to run as a native android application
 
 ### Installation
 
-1. Copy the `backend` folder contents to your web server directory:
+### Step 1: Backend Setup
+1-Locate the backend folder in the project.
+2-Move the folder to your server's root directory (e.g., C:\xampp\htdocs\medical_system).
+3-Start Apache and MySQL in the XAMPP Control Panel.
+4-Open http://localhost/phpmyadmin.
+5-Create a new database named medical_record_system.
+6-Import the medical_record_system.sql file provided in the backend folder.
+Optional: Configure your IP address in db_connect.php if testing on a physical device.
+
+### Step 2: Mobile App Setup
+1-Open the mobile_app folder in your IDE.
+2-Open lib/api/api_service.dart.
+3-Change the baseUrl variable to match your local server IP:
+
+```dart
+// For Emulator
+static const String baseUrl = 'http://10.0.2.2/medical_system';
+// For Physical Device
+static const String baseUrl = 'http://YOUR_PC_IP_ADDRESS/medical_system';
    ```
-   C:\xampp\htdocs\medical_app\
+4-Run the dependencies command:
+```bash
+flutter pub get
    ```
-
-2. Start Apache and MySQL services in XAMPP
-
-3. Import the database:
-   - Open phpMyAdmin (http://localhost/phpmyadmin)
-   - Create a new database named `medical_record_system`
-   - Import `medical_record_system.sql`
-
-4. Configure database connection in `db_connect.php`:
-   ```php
-   $host = 'localhost';
-   $dbname = 'medical_record_system';
-   $username = 'root';
-   $password = '';
+5-Launch the app:
+```bash
+flutter run
    ```
-
-5. Verify the API is running by accessing:
-   ```
-   http://localhost/medical_app/login.php
-   ```
-
----
-
-## Mobile App Setup
-
-### Prerequisites
-- Flutter SDK 3.x
-- Android Studio or VS Code with Flutter extensions
-- Android device or emulator
-
-### Installation
-
-1. Navigate to the mobile directory:
-   ```bash
-   cd mobile
-   ```
-
-2. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
-
-3. Update the API base URL in `lib/api_service.dart`:
-   ```dart
-   static const String baseUrl = 'http://YOUR_SERVER_IP/medical_app';
-   ```
-
-4. Run the application:
-   ```bash
-   flutter run
-   ```
-
----
 
 ## Database Schema
 
@@ -201,7 +187,7 @@ The system uses the following main tables:
 |-------|-------------|
 | `users` | User accounts (patients, doctors, admins) |
 | `patients` | Patient-specific information |
-| `appointments` | Scheduled appointments |
+| `appointments` | appointments |
 | `consultations` | Medical consultations |
 | `prescriptions` | Medication prescriptions |
 | `lab_results` | Laboratory test results |
@@ -249,9 +235,10 @@ The system uses the following main tables:
 
 | Role | Access Level |
 |------|--------------|
-| Patient | View own records, book appointments, request re-access |
-| Doctor | Manage assigned patients, appointments, consultations |
-| Admin | Full system access, user management, system logs |
+| Patient | View own records, view past and scheduled appointments, request re-access |
+| Doctor | Manage patients, appointments, consultations |
+| Nurse | Manage patients |
+| Admin |manage doctors and nurses, treat re access requests, view system logs |
 
 ---
 
@@ -261,12 +248,3 @@ Screenshots can be added here to showcase the application interface.
 
 ---
 
-## License
-
-This project is developed for educational and demonstration purposes.
-
----
-
-## Contact
-
-For questions or support, please open an issue in this repository.
