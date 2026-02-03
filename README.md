@@ -242,6 +242,10 @@ The system uses the following main tables:
 
 ---
 
+## IMPORTANT NOTE: replace androidManifest.xml with the one provided so the app workds correctly (change to support file upload in emulator), and replace pubspec.yaml with the one provided so you can install all dependencies with flutter pub get
+
+---
+
 ## Screenshots
 
 Screenshots can be added here to showcase the application interface.
