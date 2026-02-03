@@ -1,4 +1,4 @@
-# National Medical Record Management System
+<img width="401" height="852" alt="Screenshot 2026-01-27 000648" src="https://github.com/user-attachments/assets/1f156a05-d098-4c01-beb0-d80d8c3bc375" /># National Medical Record Management System
 
 A comprehensive healthcare management solution consisting of a PHP backend API and a Flutter mobile application. This system enables healthcare providers to manage patient records, appointments, prescriptions, lab results, and consultations efficiently.
 
@@ -248,7 +248,82 @@ The system uses the following main tables:
 
 ## Screenshots
 
-Screenshots can be added here to showcase the application interface.
+### Admin pages
+
+<img width="406" height="853" alt="Screenshot 2026-01-26 234055" src="https://github.com/user-attachments/assets/183c3ae5-ce2b-4af7-bbd6-f9a7cd753e6b" />
+<img width="406" height="853" alt="Screenshot 2026-01-26 234055" src="https://github.com/user-attachments/assets/183c3ae5-ce2b-4af7-bbd6-f9a7cd753e6b" />
+<img width="408" height="853" alt="Screenshot 2026-01-26 234117" src="https://github.com/user-attachments/assets/1da5f8fa-a3e0-4140-8fb7-4515cc553bb8" />
+<img width="408" height="853" alt="Screenshot 2026-01-26 234117" src="https://github.com/user-attachments/assets/1da5f8fa-a3e0-4140-8fb7-4515cc553bb8" />
+![Uploading Screenshot 2026-01-26 234117.png…]()<img width="406" height="840" alt="Screenshot 2026-01-26 234437" src="https://github.com/user-attachments/assets/3f7104cc-5119-41c8-b962-068fa6a78c95" />
+<img width="406" height="840" alt="Screenshot 2026-01-26 234437" src="https://github.com/user-attachments/assets/3f7104cc-5119-41c8-b962-068fa6a78c95" />
+<img width="407" height="847" alt="Screenshot 2026-01-26 234406" src="https://github.com/user-attachments/assets/e0f61036-7405-40d4-a4b8-98f97c0fbc96" />
+<img width="407" height="847" alt="Screenshot 2026-01-26 234406" src="https://github.com/user-attachments/assets/e0f61036-7405-40d4-a4b8-98f97c0fbc96" />
+<img width="416" height="861" alt="Screenshot 2026-01-26 234343" src="https://github.com/user-attachments/assets/d2a02bd8-0d21-4408-b724-2a6b89fbe55f" />
+<img width="416" height="861" alt="Screenshot 2026-01-26 234343" src="https://github.com/user-attachments/assets/d2a02bd8-0d21-4408-b724-2a6b89fbe55f" />
+<img width="410" height="851" alt="Screenshot 2026-01-26 234141" src="https://github.com/user-attachments/assets/c37d5cf7-5c9f-4ffd-9e91-ff022a8a828d" />
+<img width="410" height="851" alt="Screenshot 2026-01-26 234141" src="https://github.com/user-attachments/assets/c37d5cf7-5c9f-4ffd-9e91-ff022a8a828d" />
+
+### Doctor pages
+<img width="402" height="862" alt="Screenshot 2026-01-27 000604" src="https://github.com/user-attachments/assets/1c8e9ca4-a6c2-4688-a12b-125ae4c3fceb" />
+<img width="402" height="862" alt="Screenshot 2026-01-27 000604" src="https://github.com/user-attachments/assets/1c8e9ca4-a6c2-4688-a12b-125ae4c3fceb" />
+<img width="406" height="842" alt="Screenshot 2026-01-27 000541" src="https://github.com/user-attachments/assets/639b8008-9f88-47df-b533-2879e69ea5c0" />
+<img width="406" height="842" alt="Screenshot 2026-01-27 000541" src="https://github.com/user-attachments/assets/639b8008-9f88-47df-b533-2879e69ea5c0" />
+<img width="406" height="847" alt="Screenshot 2026-01-27 000506" src="https://github.com/user-attachments/assets/c37367b7-840d-4552-8b6d-e22142c84375" />
+<img width="406" height="847" alt="Screenshot 2026-01-27 000506" src="https://github.com/user-attachments/assets/c37367b7-840d-4552-8b6d-e22142c84375" />
+<img width="395" height="852" alt="Screenshot 2026-01-27 000441" src="https://github.com/user-attachments/assets/e00457fe-14e0-4518-b5be-bcfe876e40b4" />
+<img width="395" height="852" alt="Screenshot 2026-01-27 000441" src="https://github.com/user-attachments/assets/e00457fe-14e0-4518-b5be-bcfe876e40b4" />
+<img width="393" height="847" alt="Screenshot 2026-01-27 000426" src="https://github.com/user-attachments/assets/9623a91b-c579-45e8-8ece-dd3a299c0d1c" />
+<img width="393" height="847" alt="Screenshot 2026-01-27 000426" src="https://github.com/user-attachments/assets/9623a91b-c579-45e8-8ece-dd3a299c0d1c" />
+<img width="403" height="845" alt="Screenshot 2026-01-27 000336" src="https://github.com/user-attachments/assets/d78deeab-fa38-481b-9faa-5f03998c8677" />
+<img width="403" height="845" alt="Screenshot 2026-01-27 000336" src="https://github.com/user-attachments/assets/d78deeab-fa38-481b-9faa-5f03998c8677" />
+
+<img width="398" height="826" alt="Screenshot 2026-01-27 000317" src="https://github.com/user-attachments/assets/003c6ee1-c0b1-4eed-ac90-4cadbee6371d" />
+<img width="398" height="826" alt="Screenshot 2026-01-27 000317" src="https://github.com/user-attachments/assets/003c6ee1-c0b1-4eed-ac90-4cadbee6371d" />
+<img width="400" height="855" alt="Screenshot 2025-07-31 020422" src="https://github.com/user-attachments/assets/fce4310c-3574-4a25-867e-d5fb11677298" />
+<img width="400" height="855" alt="Screenshot 2025-07-31 020422" src="https://github.com/user-attachments/assets/fce4310c-3574-4a25-867e-d5fb11677298" />
+<img width="401" height="852" alt="Screenshot 2026-01-27 000648" src="https://github.com/user-attachments/assets/1f156a05-d098-4c01-beb0-d80d8c3bc375" />
+![Upload<img width="405" height="848" alt="sssd" src="https://github.com/user-attachments/assets/f218fcc3-02c6-47af-9021-3e096ebe3312" />
+<img width="405" height="848" alt="sssd" src="https://github.com/user-attachments/assets/f218fcc3-02c6-47af-9021-3e096ebe3312" />
+ing Screenshot 2026-01-27 000648.png…]()
+in pages
+<img width="400" height="851" alt="Screenshot 2026-01-27 000625" src="https://github.com/user-attachments/assets/c9295630-cc1d-4441-a343-97dd5a4b580d" />
+<img width="400" height="851" alt="Screenshot 2026-01-27 000625" src="https://github.com/user-attachments/assets/c9295630-cc1d-4441-a343-97dd5a4b580d" />
+
+### Nurse pages
+<img width="407" height="768" alt="Screenshot 2026-01-27 003313" src="https://github.com/user-attachments/assets/9aa3c1ca-3ef1-40ff-8eac-6c08bfbd19cf" />
+<img width="407" height="768" alt="Screenshot 2026-01-27 003313" src="https://github.com/user-attachments/assets/9aa3c1ca-3ef1-40ff-8eac-6c08bfbd19cf" />
+<img width="401" height="853" alt="Screenshot 2026-01-27 003235" src="https://github.com/user-attachments/assets/454191bb-0e22-4fbf-b253-3f43b8cf1193" />
+<img width="401" height="853" alt="Screenshot 2026-01-27 003235" src="https://github.com/user-attachments/assets/454191bb-0e22-4fbf-b253-3f43b8cf1193" />
+<img width="408" height="843" alt="Screenshot 2026-01-27 003217" src="https://github.com/user-attachments/assets/9067b328-0f33-4ede-9c77-375374bd30c5" />
+<img width="408" height="843" alt="Screenshot 2026-01-27 003217" src="https://github.com/user-attachments/assets/9067b328-0f33-4ede-9c77-375374bd30c5" />
+<img width="400" height="840" alt="Screenshot 2026-01-27 002258" src="https://github.com/user-attachments/assets/0eb54d66-4704-4938-aa42-fccedd8038ed" />
+<img width="400" height="840" alt="Screenshot 2026-01-27 002258" src="https://github.com/user-attachments/assets/0eb54d66-4704-4938-aa42-fccedd8038ed" />
+<img width="398" height="880" alt="dgfdfg" src="https://github.com/user-attachments/assets/d94aceb6-f1ce-4d53-9197-f39756d9199c" />
+<img width="398" height="880" alt="dgfdfg" src="https://github.com/user-attachments/assets/d94aceb6-f1ce-4d53-9197-f39756d9199c" />
+<img width="403" height="860" alt="asdadss" src="https://github.com/user-attachments/assets/9daabe00-9e47-40e6-8c07-fd1f3f4d9322" />
+<img width="403" height="860" alt="asdadss" src="https://github.com/user-attachments/assets/9daabe00-9e47-40e6-8c07-fd1f3f4d9322" />
+
+### Patient pages
+<img width="407" height="842" alt="Screenshot 2026-01-27 004348" src="https://github.com/user-attachments/assets/968231e2-e594-4768-85d4-1616b06e25aa" />
+<img width="407" height="842" alt="Screenshot 2026-01-27 004348" src="https://github.com/user-attachments/assets/968231e2-e594-4768-85d4-1616b06e25aa" />
+<img width="407" height="835" alt="Screenshot 2026-01-27 004308" src="https://github.com/user-attachments/assets/7535b9eb-6ef9-4233-bfb6-ad63d4858a27" />
+<img width="407" height="835" alt="Screenshot 2026-01-27 004308" src="https://github.com/user-attachments/assets/7535b9eb-6ef9-4233-bfb6-ad63d4858a27" />
+<img width="410" height="847" alt="Screenshot 2026-01-27 004250" src="https://github.com/user-attachments/assets/95e1a3c5-ee76-40e5-8824-c806b82e7c8a" />
+<img width="410" height="847" alt="Screenshot 2026-01-27 004250" src="https://github.com/user-attachments/assets/95e1a3c5-ee76-40e5-8824-c806b82e7c8a" />
+<img width="407" height="837" alt="Screenshot 2026-01-27 004233" src="https://github.com/user-attachments/assets/3481aef4-4256-40f3-bc5c-17e1333533eb" />
+<img width="407" height="837" alt="Screenshot 2026-01-27 004233" src="https://github.com/user-attachments/assets/3481aef4-4256-40f3-bc5c-17e1333533eb" />
+<img width="408" height="842" alt="Screenshot 2026-01-27 004154" src="https://github.com/user-attachments/assets/d23fd9df-e283-49b2-8ab8-350945da49b5" />
+<img width="408" height="842" alt="Screenshot 2026-01-27 004154" src="https://github.com/user-attachments/assets/d23fd9df-e283-49b2-8ab8-350945da49b5" />
+<img width="403" height="833" alt="Screenshot 2026-01-27 004128" src="https://github.com/user-attachments/assets/70e478de-bcd1-42eb-abb7-ec80e6b056fe" />
+<img width="403" height="833" alt="Screenshot 2026-01-27 004128" src="https://github.com/user-attachments/assets/70e478de-bcd1-42eb-abb7-ec80e6b056fe" />
+
+### Other pages
+<img width="400" height="848" alt="Screenshot 2026-01-27 011641" src="https://github.com/user-attachments/assets/93da6375-852f-4297-8813-1b983d393186" />
+<img width="400" height="848" alt="Screenshot 2026-01-27 011641" src="https://github.com/user-attachments/assets/93da6375-852f-4297-8813-1b983d393186" />
+<img width="402" height="857" alt="Screenshot 2026-01-27 011558" src="https://github.com/user-attachments/assets/189af366-015a-4ebb-b28a-e81672b7241c" />
+<img width="402" height="857" alt="Screenshot 2026-01-27 011558" src="https://github.com/user-attachments/assets/189af366-015a-4ebb-b28a-e81672b7241c" />
+<img width="400" height="840" alt="Screenshot 2026-01-27 011534" src="https://github.com/user-attachments/assets/69acdb88-267e-483e-b5ef-41f0eafaabd9" />
+<img width="400" height="840" alt="Screenshot 2026-01-27 011534" src="https://github.com/user-attachments/assets/69acdb88-267e-483e-b5ef-41f0eafaabd9" />
 
 ---
 
