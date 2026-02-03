@@ -1,0 +1,12 @@
+﻿# Flutter build artifacts
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/build/
+mobile/.idea/
+mobile/*.iml
+# VS Code
+.vscode/
+# OS files
+.DS_Store
+Thumbs.db
