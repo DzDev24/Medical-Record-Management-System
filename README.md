@@ -1,4 +1,4 @@
-<img width="401" height="852" alt="Screenshot 2026-01-27 000648" src="https://github.com/user-attachments/assets/1f156a05-d098-4c01-beb0-d80d8c3bc375" /># National Medical Record Management System
+# National Medical Record Management System
 
 A comprehensive healthcare management solution consisting of a PHP backend API and a Flutter mobile application. This system enables healthcare providers to manage patient records, appointments, prescriptions, lab results, and consultations efficiently.
 
